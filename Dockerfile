@@ -14,4 +14,5 @@ COPY freetds.conf /etc/freetds/
 COPY odbcinst.ini /etc/
 
 EXPOSE  8000
+
 #CMD ["python", "/website/WebEther/manage.py","runserver","0.0.0.0:8000"]
